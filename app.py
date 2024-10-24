@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'checking the Argocd and jenkins are working properly or not'
+    return 'checking if it is working or not'
