@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("shorenex/test")
+       app = docker.build("shorenex/gitops-test")
     }
 
     stage('Test image') {
